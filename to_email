@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+cat /dev/stdin \
+  | fold -s -w 80
+
+cat <<EOF
+
+-- 
+Jon
+EOF
